@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    /*background-color: rgb(184, 255, 186);*/
+    margin: 0;
+    font-size: 16px;
+    font-family: arial, sans-serif;
+} 
+#root {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contenedor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 90%;
+    max-width: 500px;
+    padding: 40px;
+    margin: 40px;
+    border-radius: 2px;
+    box-shadow: 0 0 50px rgba(0,0,0,.1); 
+}
+
